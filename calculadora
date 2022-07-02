@@ -1,0 +1,31 @@
+fun main() {
+  println("digite 9 numeros")
+  val X:Int = readLine()!!.toInt()
+  val A:Int = readLine()!!.toInt()
+  val B:Int = readLine()!!.toInt()
+  val C:Int = readLine()!!.toInt()
+  val D:Int = readLine()!!.toInt()
+  val E:Int = readLine()!!.toInt()
+  val F:Int = readLine()!!.toInt()
+  val G:Int = readLine()!!.toInt()
+  val H:Int = readLine()!!.toInt()
+    
+    val rows = 3
+    val columns = 3
+  
+    val firstMatrix = arrayOf(intArrayOf(X, A, B), intArrayOf(C, D, E), intArrayOf(F, G, H))
+
+
+   
+    for (i in 0..rows -1) {
+        for (j in 0..columns -1) {
+          print(" ")
+            print(firstMatrix[i][j])
+          print(" ")
+        }
+        println()
+    }
+
+ 
+ 
+}
